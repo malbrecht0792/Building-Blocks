@@ -1,3 +1,10 @@
+require 'sinatra'
+
+get '/' do
+  "Hello World!"
+end
+
+
 def caesar_cipher(text, num)
 	
 	#Creating an alphabet array with lowercase and uppercase letters
